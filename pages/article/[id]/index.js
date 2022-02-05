@@ -1,9 +1,8 @@
 import Link from "next/link";
-import { useRouter } from "next/router";
+// import { useRouter } from "next/router";
 
 const article = ({ article }) => {
-    const router = useRouter();
-    const { id } = router.query;
+    
   return (
     <>
         <h1>{article.title}</h1>
